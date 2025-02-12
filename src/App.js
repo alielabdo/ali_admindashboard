@@ -16,7 +16,7 @@ const App = () => {
 
     return (
         <div className={currentMode === "Dark" ? 'dark' : ''}>
-            <BrowserRouter>
+            <BrowserRouter basename="/ali_admindashboard">
                 <div className='flex relative dark:bg-main-dark-bg'>
                     <div className='fixed right-4 bottom-4' style={{zIndex:'1000'}}>
                         <TooltipComponent content="Settings" position="Top">
